@@ -1,5 +1,5 @@
 {
-  "name": "aframe",
+  "name": "@ajwest/aframe",
   "version": "0.8.2",
   "description": "A web framework for building virtual reality experiences.",
   "homepage": "https://aframe.io/",
@@ -30,11 +30,11 @@
   "repository": "aframevr/aframe",
   "license": "MIT",
   "dependencies": {
+    "@ajwest/debug": "^2.2.0",
+    "@ajwest/document-register-element": "^0.5.4",
     "@tweenjs/tween.js": "^16.8.0",
     "browserify-css": "^0.8.2",
-    "debug": "ngokevin/debug#noTimestamp",
     "deep-assign": "^2.0.0",
-    "document-register-element": "dmarcos/document-register-element#8ccc532b7",
     "envify": "^3.4.1",
     "load-bmfont": "^1.2.3",
     "object-assign": "^4.0.1",
@@ -73,7 +73,7 @@
     "karma-mocha-reporter": "^2.1.0",
     "karma-sinon-chai": "1.2.4",
     "lolex": "^1.5.1",
-    "markserv": "github:sukima/markserv#feature/fix-broken-websoketio-link",
+    "@ajwest/markserv": "^0.1.1",
     "minifyify": "^7.3.3",
     "mocha": "^3.0.2",
     "mozilla-download": "^1.1.1",
@@ -84,7 +84,7 @@
     "sinon": "^1.17.5",
     "sinon-chai": "2.8.0",
     "snazzy": "^5.0.0",
-    "too-wordy": "ngokevin/too-wordy",
+    "@ajwest/too-wordy": "^0.1.4",
     "uglifyjs": "^2.4.10",
     "write-good": "^0.9.1"
   },
